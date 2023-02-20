@@ -1,0 +1,51 @@
+{
+ "data" : [
+    {
+      "id" : 1,
+      "img":  "https://res.cloudinary.com/purnesh/image/upload/w_540,f_auto,q_auto:eco,c_limit/friendicoes1568721865695.jpg",
+      "name": "Browny",
+      "Status" : "Undergoing Treatment",
+      "Species" : "Dog",
+      "Breed" : "Indie",
+      "Color" : "Brown",
+      "age":"1 Year",
+      "about":
+        "Browny has become another victim of brutality. This 2-month-old was found on the streets of Mumbai with horrific bites on his tiny body, even his private parts were not spared. Please help this little boy by donating towards his treatment."
+    },
+    {  "id":2,
+      "img": "https://static.theprint.in/wp-content/uploads/2022/04/FP3MqwoVQAEKIZ02022040903263220220409042322.jpg",
+      "name": "Lily",
+      "Color" : "Grey and black",
+      "Species" : "Dog",
+      "age" : 1,
+      "Breed" : "Indie",
+      "Status" :"Undergoing Treatment",
+      "about":
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam eius eveniet cupiditate fugiat modi repellendus earum labore dolorem quas officia."
+    },
+    { 
+      "id":3,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_1fx6OkHgfyWJMo0NAvLHn5SxMintfu_yg&usqp=CAU",
+      "Species" : "Cat",
+      "Status" :"Undergoing Treatment",
+      "Color" : "Grey and black",
+      "Breed" : "Indie",
+      "age" : 1,
+      "name": "Chikki",
+      "about":
+        "Chikki was found injured in Malad West, Mumbai. She was found in severe pain with her tail completely severed from her body. Please support her on her road to recovery by donating towards her treatment."
+    },
+    {  
+      "id": 4,
+      "img": "",
+      "Species" : "Dog",
+      "Status" :"Undergoing Treatment",
+      "Color" : "Grey and black",
+      "Breed" : "Indie",
+      "age" : 1,
+      "name": "Nemo",
+      "about":
+        "Nemo is a 2-month-old puppy with a fractured leg who was abandoned and left to die. This courageous girl is currently receiving treatment at our hospital. Please donate to help her get better. All contributions will be used to fund her treatment and care."
+    }
+  ]
+}

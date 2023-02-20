@@ -1,0 +1,126 @@
+.des-box{
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(245, 244, 244);
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fill,minmax(600px,1fr)); */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.des-box>div{
+    width: 600px;
+/* border: 1px solid black; */
+padding-left: 20px;
+padding-right: 20px;
+}
+.des-box>div>img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+.des-box>div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des-box>div:last-child{
+    /* display: flex; */
+    text-align: left;
+   padding: 20px;
+   padding-top: 50px;
+    /* align-items: center; */
+}
+.txtboxdes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.btn-des{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btnDonate{
+    padding: 0.9em 3em;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 600;
+    background: #ffa700;
+    cursor: pointer;
+    position: relative;
+    top: 55%;
+    z-index: 10;
+    left: 0%;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btnDonate:before {
+    content: "";
+    /* background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      /* #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff, */
+      /* #ff00c8, */
+      /* #ff0000 */
+    /* ); */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .btnDonate:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  .btnDonate:hover{
+    background-color: black ;
+    color: white;
+    border: 2px solid #ffc400;
+    font-size: 17px;
+  
+  }
